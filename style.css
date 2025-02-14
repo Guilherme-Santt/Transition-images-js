@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teste{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+}
+
+.teste2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 82, 39);
+
+}    
+
+.active{
+    color: white;
+}
+.green{
+    color:green;
+}
+#img {
+    transition: opacity 0.2s ease; 
+}
+
+.opacity {
+    opacity: 0; 
+}
